@@ -69,6 +69,9 @@ legend {
 
 html {
   background-color: rgba(4, 4, 105, 78%);
+ height:100vh;
+margin: 0;
+padding: 0;
   
 }
 
