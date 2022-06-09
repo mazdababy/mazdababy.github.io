@@ -92,7 +92,5 @@ textarea {
 
 #logo img {
   width: 250px;
-  position: absolute;
-  left: 250px;
-  top: 1035px;
-}
+  position: center;
+  }
