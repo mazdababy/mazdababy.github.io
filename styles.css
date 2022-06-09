@@ -1,6 +1,7 @@
 h1, p {
 font-family: monospace; 
-margin: 10px;
+margin-top: 10px;
+margin-bottom;
 padding-top: 25px;
 padding-bottom: 10px;
 max-width: 455px;
@@ -12,7 +13,8 @@ max-width: 100%;
 
 p {
     
-  margin: 10px;
+  margin-top: 10px;
+margin-bottom: 10px;
   padding-bottom: 0px;
    
   max-width: 100%;
@@ -25,7 +27,8 @@ form {
   text-align: center;
   font-family: monospace;
   width: auto;
-  margin: 10px;
+  margin-top: 10px;
+margin-bottom: 10px;
   color: #EEEEEE;
   max-width: 100%;
   
@@ -94,7 +97,7 @@ html {
   background-color: rgba(4, 4, 105, 78%);
   width: 100%;
   max-width: 100%;
-  margin: 20px;
+  margin: 0 auto;
   
 }
 
