@@ -39,7 +39,7 @@ padding-right: 25px;
 }
 input, select {
   display: table-cell;
-  width: 345px;
+  width: 300px;
   max-width: 100%;
  
 }
