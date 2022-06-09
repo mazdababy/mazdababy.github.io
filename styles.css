@@ -1,15 +1,11 @@
 h1, p {
 font-family: monospace; 
+margin: 10px;
 padding-top: 25px;
 padding-bottom: 10px;
-max-width: 380px;
+width: 455px;
 text-align: center;
 color: #EEEEEE;
-}
-
-title, h1 {
-  text-align: center;
-  margin-left: -15px;
 }
 
 p {
@@ -24,7 +20,7 @@ form {
   display: table;
   text-align: center;
   font-family: monospace;
-  max-width:430px;
+  width: 455px;
   color: #EEEEEE;
   
 }
@@ -37,7 +33,7 @@ label {
 }
 input, select {
   display: table-cell;
-  width: 343px;
+  width: 405px;
 }
 
 input.radio, input.checkbox {
@@ -54,15 +50,14 @@ fieldset, legend {
 
 fieldset {
   padding-top: 10px;
-  width: 350px;
   
 }
 
 legend {
   text-align: center;
+  padding-left: px;
   padding-top: 20px;
-  width: 343px;
-  width: auto;
+  width: 100%;
   
   
 }
@@ -74,12 +69,11 @@ legend {
 
 html {
   background-color: rgba(4, 4, 105, 78%);
-  margin: 0;max
-
+  
 }
 
 textarea {
-  width: 343px;
+  width: 400px;
   height: 50px;
   margin-top: -5px;
 }
