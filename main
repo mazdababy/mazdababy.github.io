@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <center>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+  <h1 id="title">
+    <Title>Mazdababy's Blue Ranger Survey Form</title>
+    mazdababy's Blue Ranger<br>Survey Form
+    <br><br>
+    <img src="https://c.tenor.com/CpTRnihq_nMAAAAC/power-rangers-blue-ranger.gif" title="dancing blue guy" alt="dancing blue guy">
+    </h1>
+    
+<p id="description">
+Welcome to mazdababy's Blue Ranger Survey Form.<br><br>Do you have what it takes to grasp the autistic dinosaur<br>powers within? Please answer the following questions to<br>find out.
+</p>
+    
+<form id="survey-form">
+
+<p> 
+         
+<label id="name-label" for="name">First Name: </label>
+<input type="text" id="name" required name="name" placeholder="Billy">
+
+<label id="email-label" for="email">Email Address: </label><input type="email" id="email" name="email" required placeholder="billy.cranston@mmpr.com">
+
+<label id="number-label" for="age">Age: </label id="age"><input type="number" name="age" id="number" required min="5" max="17" placeholder="15">
+
+
+<label for="color" id="dropdown-label">What color do you feel in your hart: </label>
+<select id="dropdown" required name="color" required>
+
+<option value="Please choose a color" selected="true" disabled="true">Please Choose a Color</option>
+<option value="Red">Red</option
+<option value="Blue">Blue</option>
+<option value="Green">Green</option>
+<option value="Black">Black</option>
+<option value="White">White</option>
+<option value="Turqoise">Turoise</option>
+<option value="Yellow">Yellow</option>
+<option value="Pink">Pink</option>
+
+</select>
+<br>
+<legend for="important">Which do you find most important?</legend><fieldset id="important">
+<input class="radio" name="important" type="radio" value="Eating Pizza"> Pizzaaaaaa
+<input class="radio" type="radio" value="Stopping Ivan Ooze" name="important"> Stopping Ivan Ooze</label>
+<input class="radio" type="radio" value="Optimus Prime" name="important"> Optimus Prime</fieldset>
+
+<legend for="gender">What gender do you identify as?</legend>
+<br><fieldset id="gender">
+<input class="radio" type="radio" value="Boy" name="gender"> Boy
+<input class="radio" type="radio" value="Girl" name="gender"> Girl
+<input class="radio" type="radio" value="Triceratops" name="gender"> Triceratops
+<input class="radio" type="radio" value="n/a" name="gender"> I'd rather not say</fieldset>
+
+
+
+
+
+<br><textarea required placeholder="Please explain your most autistic trait."></textarea>
+
+<legend for="affirm">Have you answered all questions honestly?<br>Hint: Only an autist would select both.</legend>
+<br><fieldset id="affirm">
+  <input class="checkbox" type="checkbox" value="Yes1" name="affirm">Yes
+<input class="checkbox" type="checkbox" value="Yes2" name="affirm"> Also yes
+</fieldset>
+
+
+<input type="submit" id="submit" class="submit-btn" value="SEND IT"/>
+      </p>
+
+
+
+      
+      </form>
+      <div><img src="https://www.gran-turismo.com/gtsport/decal/5836692673733362696_1.png"></div>
+  </html>
