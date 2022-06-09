@@ -1,12 +1,15 @@
 h1, p {
 font-family: monospace; 
-margin: 10px;
 padding-top: 25px;
 padding-bottom: 10px;
-width: 100%;
-max-width: 455px;
+max-width: 380px;
 text-align: center;
 color: #EEEEEE;
+}
+
+title, h1 {
+  text-align: center;
+  margin-left: -15px;
 }
 
 p {
@@ -21,8 +24,7 @@ form {
   display: table;
   text-align: center;
   font-family: monospace;
-  width: 100%;
-  max-width:455px;
+  max-width:430px;
   color: #EEEEEE;
   
 }
@@ -35,8 +37,7 @@ label {
 }
 input, select {
   display: table-cell;
-  width: auto;
-  max-width: 455px;
+  width: 343px;
 }
 
 input.radio, input.checkbox {
@@ -53,14 +54,14 @@ fieldset, legend {
 
 fieldset {
   padding-top: 10px;
+  width: 350px;
   
 }
 
 legend {
   text-align: center;
-  padding-left: px;
   padding-top: 20px;
-  max-width: 455px;
+  width: 343px;
   width: auto;
   
   
@@ -78,7 +79,7 @@ html {
 }
 
 textarea {
-  width: 400px;
+  width: 343px;
   height: 50px;
   margin-top: -5px;
 }
