@@ -11,9 +11,10 @@ max-width: 100%;
 }
 
 p {
-  margin-top: -10px;  
+    
+  margin: 10px;
   padding-bottom: 0px;
-  margin-bottom: 10px; 
+   
   max-width: 100%;
 }
 
@@ -24,6 +25,7 @@ form {
   text-align: center;
   font-family: monospace;
   width: auto;
+  margin: 10px;
   color: #EEEEEE;
   max-width: 100%;
   
@@ -31,15 +33,16 @@ form {
 label {
   display: table-cell;
   padding-left: 25px;
-padding-right: 25px;
   padding-top: 10px;
+
+  padding-right: 25px;
   padding-bottom: 10px;
   max-width: 100%;
   
 }
 input, select {
   display: table-cell;
-  width: auto;
+  width: 250px;
   max-width: 100%;
  
 }
@@ -53,6 +56,7 @@ max-width: 100%;
 
 fieldset, legend {
   border: 0 none;
+  
   padding-top: 20px;
   margin-top: -10px;  
   max-width: 100%;
@@ -61,6 +65,8 @@ fieldset, legend {
 fieldset {
   padding-top: 10px;
   max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
   
 }
 
@@ -70,6 +76,8 @@ legend {
   padding-top: 20px;
   width: 100%;
   max-width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
   
   
 }
@@ -79,16 +87,19 @@ legend {
   max-width: 200px;
   width: auto;
   max-width: 100%;
+  margin-bottom: -45px;
 }
 
 html {
   background-color: rgba(4, 4, 105, 78%);
   width: 100%;
   max-width: 100%;
+  margin: 20px;
   
 }
 
 textarea {
+  
   min-width: 250px;
   width: auto;
   max-width: 100%;
